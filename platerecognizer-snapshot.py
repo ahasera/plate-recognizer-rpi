@@ -13,7 +13,8 @@ def parse_arguments():
 
 # camera config init
 camera = Picamera2()
-config = camera.create_still_configuration(main={"size": (1024, 768)})
+config = camera.create_still_configuration(main={"size": (1920, 1080)}, lores={"size": (808, 606)}, display="lores") # will capture image in 1080p but render preview at 808x606 res
+#preview_config = camera.create_preview_configuration()
 camera.configure(config)
 camera.start_preview(Preview.QTGL)
 camera.start()

@@ -4,18 +4,18 @@ This projects aims at detecting and parsing license plates number with the camer
 
 To do so, you will have to meet these hardware requirements : 
 
-* Raspberry Pi (at least version 3B)
+* Raspberry Pi (at least version 3B) 
 * Picamera module
 * Portable touch screen *(Optional)*
 * Battery *(Optional)*
 
 The last two are recommended if you plan to make a portable license plate detector. 
-
+> **_NOTE:_** Users of Raspberry Pi 3 or earlier devices will need to enable Glamor in order for the GUI preview to work. To do this run sudo raspi-config in a command window, choose Advanced Options and then enable Glamor graphic acceleration. Finally reboot your device. [source](https://datasheets.raspberrypi.com/camera/picamera2-manual.pdf)
 ## Installation 
 
 You should consider running this program in a python venv as RaspberryPiOS will prevent you from installing pip packages system wide, for it not to alter APT packages. 
 
-Here is an example on how to do so : 
+Here is an example on how to do so: 
 
 ```
 mkdir pr-rpi
