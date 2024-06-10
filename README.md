@@ -29,6 +29,21 @@ Then proceed to the installation of the packages dependencies:
 pip install -r requirements.txt
 ```
 
+## Usage 
+
+You can simply launch the program with this command: 
+
+```
+python3 platerecognizer-snapshot.py
+```
+
+There is a default maximum of photos capture of 6 with a 10 seconds interval between each capture, which will make the script run for 1 minute.
+This default limit is set to prevent you from exceeding your maximum API call number (if you are on plate-recognizer's free plan)
+
+But you can of course change these default values with these arguments: 
+
+* `--max-photos <int value>`
+* `--ttc <int value>`
 
 ### Project tasks
 
