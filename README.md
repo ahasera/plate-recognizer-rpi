@@ -11,6 +11,24 @@ To do so, you will have to meet these hardware requirements :
 
 The last two are recommended if you plan to make a portable license plate detector. 
 
+## Installation 
+
+You should consider running this program in a python venv as RaspberryPiOS will prevent you from installing pip packages system wide, for it not to alter APT packages. 
+
+Here is an example on how to do so : 
+
+```
+mkdir pr-rpi
+python3 -m venv --system-site-packages pr-rpi/
+source pr-rpi/bin/activate
+```
+> **_FYI:_**  Using the argument `--system-site-packages` is important to use, otherwise libcamera library will fail to compile in the venv.
+
+Then proceed to the installation of the packages dependencies:
+```
+pip install -r requirements.txt
+```
+
 
 ### Project tasks
 

@@ -1,0 +1,2 @@
+picamera2==0.3.18
+Requests==2.32.3
