@@ -14,6 +14,6 @@ The last two are recommended if you plan to make a portable license plate detect
 
 ### Project tasks
 
-- [] Optimization of color accuracy (strange color precision on the picamera module)
-- [] Parse the API response to save results locally in a table
-- [] Integration of stream API for live recording
+- [ ] Optimization of color accuracy (strange color precision on the picamera module)
+- [ ] Parse the API response to save results locally in a table
+- [ ] Integration of stream API for live recording
