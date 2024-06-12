@@ -9,6 +9,11 @@ To do so, you will have to meet these hardware requirements :
 * Portable touch screen *(Optional)*
 * Battery *(Optional)*
 
+
+OS Requirements : 
+
+RaspberryPiOS 64bit or 32bit (64 recommended)
+
 The last two are recommended if you plan to make a portable license plate detector. 
 > **_NOTE:_** Users of Raspberry Pi 3 or earlier devices will need to enable Glamor in order for the GUI preview to work. To do this run sudo raspi-config in a command window, choose Advanced Options and then enable Glamor graphic acceleration. Finally reboot your device. [source](https://datasheets.raspberrypi.com/camera/picamera2-manual.pdf)
 ## Installation 
